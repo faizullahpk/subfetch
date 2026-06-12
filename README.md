@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# 🌅 SubFetch — Reddit Wallpaper Fetcher
+# 🌅 MediaGrab — Reddit Wallpaper Fetcher
 
 **A fast, single-file web app that pulls high-quality wallpapers from any Reddit communities, with bulk download, sorting, and a clean gallery — zero dependencies, instant load.**
 
@@ -21,9 +21,9 @@
 
 ## Overview
 
-**SubFetch** is a self-contained web app — one HTML file, no build step, no dependencies — that turns Reddit into an infinite wallpaper gallery. Enter any subreddits, browse a responsive image grid, sort by hot/top/new, toggle NSFW, and bulk-download what you like. It loads instantly and runs anywhere.
+**MediaGrab** is a self-contained web app — one HTML file, no build step, no dependencies — that turns Reddit into an infinite wallpaper gallery. Enter any subreddits, browse a responsive image grid, sort by hot/top/new, toggle NSFW, and bulk-download what you like. It loads instantly and runs anywhere.
 
-The web companion to the native **WallReddit** Android app, SubFetch demonstrates clean API integration and a polished UX in the smallest possible footprint.
+The web companion to the native **WallReddit** Android app, MediaGrab demonstrates clean API integration and a polished UX in the smallest possible footprint.
 
 > Built by **[DG Technology](https://dgtechnology.com)** — engineered by Faiz Ullah.
 
@@ -54,10 +54,10 @@ The web companion to the native **WallReddit** Android app, SubFetch demonstrate
 
 ## How It Works
 
-SubFetch queries Reddit's public JSON endpoints (`r/{subreddit}/{sort}.json`), parses the media from each post, filters by type and NSFW preference, and renders everything into a responsive gallery — all client-side. Downloads are handled directly in the browser.
+MediaGrab queries Reddit's public JSON endpoints (`r/{subreddit}/{sort}.json`), parses the media from each post, filters by type and NSFW preference, and renders everything into a responsive gallery — all client-side. Downloads are handled directly in the browser.
 
 ```
-subfetch/
+mediagrab/
 └── index.html      # The entire app — markup, styles, and logic in one file
 ```
 
